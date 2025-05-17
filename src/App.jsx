@@ -6,17 +6,19 @@ import Skills from './assets/Skills'
 import Projects from './assets/Projects'
 import Education from './assets/Education'
 import Footer from './assets/Footer'
+import Experience from './assets/Experience'
 
 const App = () => {
   return (
     <div>
-      < Navbar ></ Navbar >
-      < Home ></ Home >
-      < About ></ About >
-      < Skills ></ Skills >
-      < Projects ></ Projects >
-      < Education ></ Education >
-      < Footer ></ Footer >
+      <Navbar/>
+      <Home/>
+      <About/>
+      <Experience/>
+      <Skills/>
+      <Projects/>
+      <Education/>
+      <Footer/>
     </div>
   )
 }

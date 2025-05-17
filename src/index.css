@@ -24,7 +24,7 @@ body {
   background: #000;
   width: 100%;
   overflow-x: hidden;
-  background-image: url("assets/Images/spiral-bg1.jpg");
+  /* background-image: url("assets/Images/spiral-bg1.jpg"); */
 }
 
 .fluid1 {
@@ -174,7 +174,7 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%); /* Center the line exactly */
-    z-index: 1; /* Make sure it’s behind other elements */
+    z-index: -1; /* Make sure it’s behind other elements */
     animation: moveline 6s linear forwards;
 }
 
@@ -234,7 +234,7 @@ small{
     right: -14px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #00000089;
+    border-left: 15px solid #fff;
 }
 
 .rightc-arrow{
@@ -246,12 +246,27 @@ small{
     left: -14px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #00000089;
+    border-right: 15px solid #fff;
 }
 
 .imgg{
     background-color: rgb(152, 16, 250); 
     box-shadow: 2px;
+    /* position: relative; */
+}
+
+.imgg1{
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 2px;
+    /* position: relative; */
+}
+
+.imgg::after {
+  content : "",
+}
+
+.imgg1::after {
+  content : "",
 }
 
 @media only screen and (max-width:600px) {

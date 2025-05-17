@@ -1,10 +1,10 @@
 import React from "react";
 import { TbRosetteDiscountCheckFilled } from "react-icons/tb";
-
+// fluid1
 const Skills = () => {
   return (
-    <div className="fluid1 w-full" id="skills">
-      <div className="w-full min-h-screen py-20 bg-[#00000089] backdrop-blur-2xl border-t-2 border-zinc-800 px-8 md:px-24">
+    <div className=" w-full" id="skills">
+      <div className="w-full min-h-screen py-20 bg-[#00000089] backdrop-blur-2xl border-zinc-800 px-8 md:px-24">
         <h1 className="text-white text-4xl md:text-5xl text-center inter relative">
           Skills
           <span className="rainbow-underline"></span>
@@ -78,15 +78,15 @@ const Skills = () => {
                 <div className="r h-[30px] flex flex-row">
                   <TbRosetteDiscountCheckFilled className="text-purple-600 text-2xl md:text-3xl inline self-center" />
                   <span className="text-white text-xl ml-2 neue">
-                    Git
+                    TypeScript
                   </span>
                 </div>
-                {/* <div className="r h-[30px] flex flex-row">
+                <div className="r h-[30px] flex flex-row">
                   <TbRosetteDiscountCheckFilled className="text-purple-600 text-2xl md:text-3xl inline self-center " />
                   <span className="text-white text-xl ml-2 neue">
                     SpringBoot
                   </span>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

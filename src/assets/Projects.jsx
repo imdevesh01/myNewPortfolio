@@ -6,11 +6,11 @@ import p1 from './Images/project-1.png'
 import p2 from './Images/project-2.png'
 import p3 from './Images/project-3.png'
 
-
+// fluid2
 const Projects = () => {
   return (
-    <div className="w-full fluid2" id="projects">
-      <div className="w-full min-h-screen py-20 bg-[#000000b8] backdrop-blur-2xl border-t-2 border-zinc-800 px-8 md:px-24">
+    <div className="w-full " id="projects">
+      <div className="w-full min-h-screen py-20 bg-[#000000b8] backdrop-blur-2xl border-zinc-800 px-8 md:px-24">
         <h1 className="text-white text-4xl md:text-5xl text-center inter relative">
           Projects
           <span className="rainbow-underline"></span>
@@ -23,18 +23,18 @@ const Projects = () => {
                     </div>
                     <h1 className="text-center inter text-white text-2xl mt-3 neue text-nowrap">VigilantEye</h1>
                     <div className="links text-white flex flex-row justify-center gap-4 mt-5">
-                        <a href="#"><FaGithub className="inline-block text-2xl"/></a>
-                        <a href=""><RxEnter className="inline-block text-2xl"/></a>
+                        <a href="https://github.com/imdevesh01/VigilantEye"><FaGithub className="inline-block text-2xl"/></a>
+                        <a href="https://github.com/imdevesh01/VigilantEye"><RxEnter className="inline-block text-2xl"/></a>
                     </div>
                 </div>
                 <div className="card cursor-pointer w-full md:w-1/4 h-[60vh] bg-[#00000050] border-2xl backdrop-blur-2xl rounded-3xl hover:scale-105 duration-300 px-8 py-5">
                     <div className="cardimg h-3/4 w-full rounded-3xl">
-                        <img src={p2} alt="" className="rounded-3xl h-full object-cover" />
+                        <img src={p2} alt="img" className="rounded-3xl h-full object-cover" />
                     </div>
                     <h1 className="text-center inter text-white text-2xl mt-3 neue text-nowrap">OAuth-ToDo</h1>
                     <div className="links text-white flex flex-row justify-center gap-4 mt-5">
-                        <a href="#"><FaGithub className="inline-block text-2xl"/></a>
-                        <a href=""><RxEnter className="inline-block text-2xl"/></a>
+                        <a href="https://github.com/imdevesh01/OAuTH-To-Do_Frontend"><FaGithub className="inline-block text-2xl"/></a>
+                        <a href="https://github.com/imdevesh01/OAuTH-To-Do_Frontend"><RxEnter className="inline-block text-2xl"/></a>
                     </div>
                 </div>
                 <div className="card cursor-pointer w-full md:w-1/4 h-[60vh] bg-[#00000050] border-2xl backdrop-blur-2xl rounded-3xl hover:scale-105 duration-300 px-8 py-5">
@@ -43,8 +43,8 @@ const Projects = () => {
                     </div>
                     <h1 className="text-center inter text-white text-2xl mt-3 neue text-nowrap">Reminisce</h1>
                     <div className="links text-white flex flex-row justify-center gap-4 mt-5">
-                        <a href="#"><FaGithub className="inline-block text-2xl"/></a>
-                        <a href=""><RxEnter className="inline-block text-2xl"/></a>
+                        <a href="https://github.com/imdevesh01/Reminisce"><FaGithub className="inline-block text-2xl"/></a>
+                        <a href="https://github.com/imdevesh01/Reminisce"><RxEnter className="inline-block text-2xl"/></a>
                     </div>
                 </div>
             </div>

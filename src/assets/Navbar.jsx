@@ -12,16 +12,17 @@ const Navbar = () => {
   const navItems = [
     { id: 1, text: "Home" },
     { id: 2, text: "About" },
-    { id: 3, text: "Skills" },
-    { id: 4, text: "Projects" },
-    { id: 5, text: "Education" },
+    { id: 3, text: "Experience" },
+    { id: 4, text: "Skills" },
+    { id: 5, text: "Projects" },
+    { id: 6, text: "Education" },
   ];
 
   return (
     <div className="fixed top-0 bg-[#000300] flex justify-between items-center h-20 w-full px-8 md:px-24 text-white z-100">
       {/* Logo */}
       <h1 className="w-full text-2xl md:text-3xl font-bold text-white gt">
-        YASH J.
+        DEVESH J.
       </h1>
 
       {/* Desktop Navigation */}
