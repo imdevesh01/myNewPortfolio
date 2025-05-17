@@ -25,7 +25,7 @@ const Education = () => {
         <div className="container w-1/2 relative py-[10px] px-[50px] left-0 ">
           <div className="imgg h-[40px] w-[40px] rounded-full absolute top-[32px] right-[-20px] z-2"></div>
           <div className="text-box bg-[#00000089] relative px-[30px] py-[20px] rounded-[10px]">
-            <h2 className="font-bold text-lg md:text-2xl text-white">Matrix JEE Academy, Sikar</h2>
+            <h2 className="font-bold text-lg md:text-2xl text-white">Matrix High School, Sikar</h2>
             <small className="text-md font-bold text-zinc-500">
               2020
             </small>
@@ -39,7 +39,7 @@ const Education = () => {
         <div className="container w-1/2 relative py-[10px] px-[50px] left-0 md:left-1/2   ">
           <div className="imgg h-[40px] w-[40px] rounded-full absolute top-[32px] left-[-20px]"></div>
           <div className="text-box bg-[#00000089] relative px-[30px] py-[20px] rounded-[10px]">
-            <h2 className="font-bold text-lg md:text-2xl text-white">Lords International School, Churu</h2>
+            <h2 className="font-bold text-lg md:text-2xl text-white">Lord's International School, Churu</h2>
             <small className="text-md font-bold text-zinc-500">
               2018
             </small>
