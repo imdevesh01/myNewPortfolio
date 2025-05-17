@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "./Images/dudai.jpg";
+import img1 from "./Images/devesh.jpg";
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
