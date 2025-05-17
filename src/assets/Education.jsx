@@ -11,7 +11,7 @@ const Education = () => {
         <div className="container w-1/2 relative py-[10px] px-[50px] left-0 md:left-1/2   ">
           <div className="imgg h-[40px] w-[40px] rounded-full absolute top-[32px] left-[-20px]"></div>
           <div className="text-box bg-[#00000089] relative px-[30px] py-[20px] rounded-[10px]">
-            <h2 className="font-bold text-lg md:text-2xl text-white">Indian Institute of Information Technology, Sonepat</h2>
+            <h2 className="font-bold text-lg md:text-2xl text-white underline">Indian Institute of Information Technology, Sonepat</h2>
             <small className="text-md font-bold text-zinc-500">
               2020 - Present
             </small>

@@ -24,7 +24,6 @@ body {
   background: #000;
   width: 100%;
   overflow-x: hidden;
-  /* background-image: url("assets/Images/spiral-bg1.jpg"); */
 }
 
 .fluid1 {
@@ -89,7 +88,6 @@ body {
   font-family: 'NeueMachina';
 }
 
-/* index.css or App.css */
 @keyframes rainbow {
   0% {
     background-position: 0% 50%;
@@ -173,9 +171,9 @@ body {
     background-color: rgb(152, 16, 250);
     top: 0;
     left: 50%;
-    transform: translateX(-50%); /* Center the line exactly */
-    z-index: -1; /* Make sure it’s behind other elements */
-    animation: moveline 6s linear forwards;
+    transform: translateX(-50%);
+    z-index: -1;
+    animation: moveline 6s linear 5s forwards;
 }
 
 @keyframes moveline {
@@ -252,13 +250,11 @@ small{
 .imgg{
     background-color: rgb(152, 16, 250); 
     box-shadow: 2px;
-    /* position: relative; */
 }
 
 .imgg1{
     background-color: rgb(255, 255, 255); 
     box-shadow: 2px;
-    /* position: relative; */
 }
 
 .imgg::after {
@@ -312,17 +308,16 @@ small{
     }
 }
 
-/* Custom underline for active nav link */
 .active-link::after {
   content: "";
   position: absolute;
-  left: 50%;             /* Start at horizontal center */
-  bottom: 6px;           /* Adjust vertical position */
-  width: 30%;            /* Decreased width */
-  height: 2px;           /* Thickness of underline */
-  background-color: #7c3aed; /* Tailwind purple-600 */
+  left: 50%;             
+  bottom: 6px;           
+  width: 30%;            
+  height: 2px;           
+  background-color: #7c3aed;
   border-radius: 2px;
-  transform: translateX(-50%); /* Center the underline */
+  transform: translateX(-50%);
   transition: width 0.3s ease;
 }
 

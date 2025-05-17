@@ -1,5 +1,4 @@
 import React from "react";
-import img from "./Images/kota.jpg";
 
 const About = () => {
   return (

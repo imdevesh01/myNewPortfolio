@@ -20,32 +20,25 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 bg-[#000300] flex justify-between items-center h-20 w-full px-8 md:px-24 text-white z-100">
-      {/* Logo */}
       <h1 className="w-full text-2xl md:text-3xl font-bold text-white gt">
-        DEVESH J.
+        <a href="/">DEVESH J.</a>
       </h1>
 
-      {/* Desktop Navigation */}
       <ul className="hidden md:flex">
         {navItems.map((item) => (
-          <li
-            key={item.id}
-            onClick={() => setActive(item.text.toLowerCase())}
-            className={`text-zinc-500 p-4 rounded-xl m-2 cursor-pointer duration-300 hover:text-white hover:translate-y-[-1px] hover:scale-101 inter relative
-              ${active === item.text.toLowerCase() ? "active-link" : ""}
-            `}
-          >
-            <a href={`#${item.text.toLowerCase()}`}>{item.text}</a>
-          </li>
+          <a href={`#${item.text.toLowerCase()}`} key={item.id}
+          onClick={() => setActive(item.text.toLowerCase())}
+          className={`text-zinc-500 p-3 m-3 rounded-xl cursor-pointer duration-300 hover:text-white hover:translate-y-[-1px] hover:scale-101 inter relative
+            ${active === item.text.toLowerCase() ? "active-link" : ""}
+          `}>{item.text}
+          </a>
         ))}
       </ul>
 
-      {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
-      {/* Mobile Navigation Menu */}
       <ul
         className={
           nav

@@ -67,7 +67,7 @@ const Skills = () => {
                 </div>
                 <div className="r h-[30px] flex flex-row">
                   <TbRosetteDiscountCheckFilled className="text-purple-600 text-2xl md:text-3xl inline self-center" />
-                  <span className="text-white text-xl ml-2 neue">Expess JS</span>
+                  <span className="text-white text-xl ml-2 neue text-nowrap">Expess JS</span>
                 </div>
               </div>
               <div className="skpartl flex flex-col w-1/2 gap-12 border-2 ">
@@ -82,7 +82,7 @@ const Skills = () => {
                   </span>
                 </div>
                 <div className="r h-[30px] flex flex-row">
-                  <TbRosetteDiscountCheckFilled className="text-purple-600 text-2xl md:text-3xl inline self-center " />
+                  <TbRosetteDiscountCheckFilled className="text-white text-2xl md:text-3xl inline self-center" />
                   <span className="text-white text-xl ml-2 neue">
                     SpringBoot
                   </span>

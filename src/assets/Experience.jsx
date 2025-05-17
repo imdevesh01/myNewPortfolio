@@ -10,10 +10,13 @@ const Experience = () => {
       </h1>
       <div className="cards w-full flex flex-col md:flex-row justify-center gap-12 mt-16">
         <div className="expcard w-full md:w-[30%] min-h-[50vh] rounded-2xl border-2 border-zinc-800 px-10 py-6 flex flex-col items-center">
-          <img src={pp} alt="usthaan" className="mt-3 w-[80px]" />
+          <img src={pp} alt="usthaan" className="mt-3 w-[80px] text-center" />
           <div className="duration">
-            <h1 className="text-zinc-500 text-[0.85rem]">
-              (June 2024 - August 2024)
+            <h1 className="text-zinc-500 text-[0.85rem] text-center">
+              (June 2024 - Aug 2024)
+            </h1>
+            <h1 className="text-zinc-500 text-[0.85rem] text-center">
+              SWE Intern @PayPal
             </h1>
           </div>
           <ul className="mt-5 neue flex flex-col gap-2">
@@ -34,8 +37,11 @@ const Experience = () => {
         <div className="expcard w-full md:w-[30%] min-h-[50vh] rounded-2xl border-2 border-zinc-800 px-10 py-6 flex flex-col items-center">
           <img src={ust} alt="usthaan" className="mt-3" />
           <div className="duration">
-            <h1 className="text-zinc-500 text-[0.85rem]">
-              (November 2024 - May 2025)
+            <h1 className="text-zinc-500 text-[0.85rem] text-center">
+              (Nov 2024 - May 2025)
+            </h1>
+            <h1 className="text-zinc-500 text-[0.85rem] text-center">
+              SDE Intern @uSthaan
             </h1>
           </div>
           <ul className="mt-5 neue flex flex-col gap-2">
